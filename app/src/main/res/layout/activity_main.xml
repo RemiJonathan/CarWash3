@@ -28,5 +28,11 @@
         android:textColor="@android:color/background_light"
         android:textSize="24sp" />
 
+    <fragment
+        android:id="@+id/CalculatePriceFragment"
+        android:name="com.remijonathan.carwash3.CalculatePriceFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_calculate_price" />
 
 </LinearLayout>

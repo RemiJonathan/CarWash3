@@ -7,4 +7,7 @@
     <string name="button_text">Calculate Package</string>
     <string name="brushes">Car washing brushes</string>
     <string name="enter_number">12</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
