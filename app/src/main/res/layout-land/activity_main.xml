@@ -34,7 +34,18 @@
         android:baselineAligned="false"
         android:orientation="horizontal">
 
-        <fragment
+        <RelativeLayout
+            android:id="@+id/CalculatePriceFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"/>
+        <RelativeLayout
+            android:id="@+id/DisplayPriceFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"/>
+
+        <!--<fragment
             android:id="@+id/CalculatePriceFragment"
             android:name="com.remijonathan.carwash3.CalculatePriceFragment"
             android:layout_width="match_parent"
@@ -48,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            tools:layout="@layout/fragment_display_price" />
+            tools:layout="@layout/fragment_display_price" />-->
     </LinearLayout>
 
 </LinearLayout>
