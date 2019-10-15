@@ -37,8 +37,10 @@ public class MainActivity extends AppCompatActivity {
         inWash = findViewById(R.id.inside_out_wash);
         calculatePrice = findViewById(R.id.calculate_price);
 
+
         wash = new Wash();
 
+        //Runs this if Portrait
         calculatePrice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,9 +67,7 @@ public class MainActivity extends AppCompatActivity {
     };
 
     /**
-     * Send the User to the WashPrice activity when called
-     * else
-     * emptyNumberException() is called when number is empty
+     * Calculate the price of the packages being
      */
     private void calculatePrice() {
 
@@ -79,12 +79,14 @@ public class MainActivity extends AppCompatActivity {
 
             String price = NumberFormat.getCurrencyInstance().format(wash.getTotalPrice());
 
+            //if the device is in Portrait
+            //Send the User to the Wash Price Activity
+            //if the device is in Landscape
+            //Send the Price to the Display fragment
             //Send the User to the Wash Price Activity
             Intent intent = new Intent(MainActivity.this, WashPrice.class);
-            intent.putExtra("Price",price);
+            intent.putExtra("Price", price);
             startActivity(intent);
-
-            //totalPrice.setText(price);
         } else emptyNumberException();
     }
 
