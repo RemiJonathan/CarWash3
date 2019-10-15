@@ -41,7 +41,7 @@ public class DisplayPriceFragment extends Fragment {
         confirmOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getContext(),"Order Confirmed", Toast.LENGTH_LONG);
+                Toast.makeText(getContext(),"Order Confirmed", Toast.LENGTH_LONG).show();
             }
         });
 
