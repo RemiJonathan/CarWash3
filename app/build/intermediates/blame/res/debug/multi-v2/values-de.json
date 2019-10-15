@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Remi\\StudioProjects\\CarWash3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-de\\values-de.xml",
+            "outputFile": "C:\\Users\\conta\\AndroidStudioProjects\\CarWash3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-de\\values-de.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Remi\\.gradle\\caches\\transforms-2\\files-2.1\\8a1d947778c3b1f80abb56b30c93207c\\core-1.1.0\\res\\values-de\\values-de.xml",
+                    "source": "C:\\Users\\conta\\.gradle\\caches\\transforms-2\\files-2.1\\8a1d947778c3b1f80abb56b30c93207c\\core-1.1.0\\res\\values-de\\values-de.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Remi\\.gradle\\caches\\transforms-2\\files-2.1\\77f9e090d44d18bd12907b9e5c6be465\\appcompat-1.1.0\\res\\values-de\\values-de.xml",
+                    "source": "C:\\Users\\conta\\.gradle\\caches\\transforms-2\\files-2.1\\77f9e090d44d18bd12907b9e5c6be465\\appcompat-1.1.0\\res\\values-de\\values-de.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

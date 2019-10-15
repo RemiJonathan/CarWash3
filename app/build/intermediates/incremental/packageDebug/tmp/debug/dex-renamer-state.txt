@@ -1,7 +1,7 @@
-#Tue Oct 15 01:28:25 EDT 2019
-base.0=C\:\\Users\\Remi\\StudioProjects\\CarWash3\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Tue Oct 15 12:33:09 EDT 2019
+base.0=C\:\\Users\\conta\\AndroidStudioProjects\\CarWash3\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\Remi\\StudioProjects\\CarWash3\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=C\:\\Users\\conta\\AndroidStudioProjects\\CarWash3\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
